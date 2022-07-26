@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1px;
+  line-height: 1.2;
+}
+.App {
+  text-align: center;
+}
+
+.page-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+
+.page-top > * {
+  padding: 10px 50px;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pet-table {
+  margin: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-self: center;
+  width: 60%;
+  border: 2px solid black;
+  border-bottom: none;
+}
+
+.top-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1% 0;
+  border-bottom: 2px solid black;
+}
+
+.animal-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1% 0;
+}
+
+.page-title {
+  padding: 1.5%;
+}
+
+.submit-btn {
+  padding: 0.5% 1%;
+  background-color: rgb(106, 213, 106);
+  border-radius: 5px;
+  margin: 2%;
+}
+
+.form-group {
+  padding: 0.5%;
+}
+
+.text-danger {
+  color: red;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+}
+
+.actions > * {
+  padding: 0 5px;
+}
